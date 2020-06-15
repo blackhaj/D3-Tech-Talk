@@ -1,0 +1,25 @@
+/* TREE */
+
+body {
+  background-color: #1F1E1E;
+}
+
+#tree {
+  margin: auto;
+  overflow:visible;
+  padding-top: 15px;
+}
+
+#treeG {
+  /* margin: 10px; */
+}
+
+.nodes {
+  fill: #14a897;
+}
+.link {
+  stroke: #e8e888;
+}
+.node text {
+  font: 12px sans-serif;
+}

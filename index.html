@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css"></link>
+        <title>Our Dendrogram</title>
+    </head>
+    <body>
+
+        <!-- The SVG Object -->
+        <svg width="1000" height="1000" id="tree">
+          <!-- A g object to hold our D3 'drawings' -->
+          <g id="treeG" >
+            <!-- g's to hold our nodes, links and text labels -->
+            <g class="nodes"></g>
+            <g class="links"></g>
+            <g class="labels"></g>
+          </g>
+        </svg>  
+      
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="./createTree.js"></script>
+    </body>
+</html>

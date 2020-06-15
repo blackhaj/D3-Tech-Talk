@@ -1,0 +1,27 @@
+{
+  "name": "d3-talk",
+  "version": "1.0.0",
+  "description": "Sample code for making a D3 tree",
+  "main": "createTree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackhaj/D3-Tech-Talk.git"
+  },
+  "keywords": [
+    "d3",
+    "tree"
+  ],
+  "author": "Henry Black",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackhaj/D3-Tech-Talk/issues"
+  },
+  "homepage": "https://github.com/blackhaj/D3-Tech-Talk#readme",
+  "dependencies": {
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.29"
+  }
+}
